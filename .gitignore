@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Uploaded user files
+uploads/
+
+# React / Node
+node_modules/
+dist/
+.vite/
+
+# Editor files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Backup files
+*_backup.py
+*_backup.*
+*.bak
